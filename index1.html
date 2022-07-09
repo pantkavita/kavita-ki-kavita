@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width,initial-scale=1.0">
+<title>My World</title>
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index1.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index1.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="articles.html">ARTICLES</a></li>
+                    <li><a href="poems.html">POEMS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome To my World</h1>
+            <p>A world where thoughts co-ordinate with heart and present some beautiful oeuvre.</p>
+            <a href="about.html" class="hero-btn">Visit us to know more</a>
+        </div>
+    </section>
+    <!--------------articles---------->
+    <section class="articles">
+        <h1>We Provide</h1>
+        <p>Here I have shared my point of views through my articles and poems.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Articles</h3>
+                <p>Articles are the way of expressing thoughts.Here I have included some of my written articles.</p>
+            </div>
+            <div class="course-col">
+                <h3>Poems</h3>
+                <p>Poetry is just the evidence of life.If your life is burning well,poetry is just the ash.<br>Leonard Cohen</p>
+            </div>
+        </div>
+        
+
+
+    </section>
+    <section class="goal">
+        <h1>Our Goal</h1>
+        <p>Our goal is to provide informative articles and beautiful poems.There is a saying that "a pen or a piece of paper can change the world".Here I am trying to make a small revolution in the country through my articles and poems.</p>
+    </section>
+    <section class="testimonials">
+        <h1>What Our Readers says</h1>
+        <p>Here are the reviews of some our readers</p>
+        
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/download (4).jpg">
+                <div>
+                <p>Keep trying and keep writing.Hope you achieve your goal.</p>
+                <h3>Kiana Joshi</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>     
+            <div class="testimonial-col">
+                <img src="images/download (4).jpg">
+                <div>
+                <p>The only word that can describe your poetry is "beautiful"</p>
+                <h3>Shreyas Tandon</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-------------call to action-------------->
+    <section class="review">
+        <h1>Thank You for Visiting.<br>Please give us your review and feedback here.</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Hello Readers ,<br>I am Kavita Pant ,20 year old,creator of this website.I am writing these articles and poems from the age of 13.<br>
+        I love writing poems and articles because through this I can express my views or my thoughts on some particular topic.<br>At this young age 
+        I want to channelize my energy and thoughts in a right direction and I believe this is the path which I am looking for it.
+ <br> My main motto is to keep my readers updated and entertained through my articles and poems.</p>
+ <div class="icons">
+     <i class="fa fa-facebook"></i>
+     <i class="fa fa-twitter"></i>
+     <i class="fa fa-instagram"></i>
+     <i class="fa fa-linkedin"></i>
+ </div>
+    </section>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

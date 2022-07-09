@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width,initial-scale=1.0">
+<title>My World</title>
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index1.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index1.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="articles.html">ARTICLES</a></li>
+                    <li><a href="poems.html">POEMS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>A breif About Us </h1>
+                <p>Here we are providing you articles on some recent or important topics and plus we are providing you some of our poems. So Explore Us to Know More and read out our articles and poems .Also mail us your reviews on kavitapant1309@gmail.com.</p>
+                <a href="articles.html" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/kp.jpg">
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Hello Readers ,<br>I am Kavita Pant ,20 year old,creator of this website.I am writing these articles and poems from the age of 13.<br>
+        I love writing poems and articles because through this I can express my views or my thoughts on some particular topic.<br>At this young age 
+        I want to channelize my energy and thoughts in a right direction and I believe this is the path which I am looking for it.
+ <br> My main motto is to keep my readers updated and entertained through my articles and poems.</p>
+ <div class="icons">
+     <i class="fa fa-facebook"></i>
+     <i class="fa fa-twitter"></i>
+     <i class="fa fa-instagram"></i>
+     <i class="fa fa-linkedin"></i>
+ </div>
+    </section>
+   
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
